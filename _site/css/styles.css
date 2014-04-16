@@ -1,10 +1,8 @@
 
 body {
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 30px;
   background: url("/images/background.jpg") fixed no-repeat center;
-/*  background-position:fixed; 
-  background-repeat: no-repeat; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,8 +13,8 @@ body {
   /* Side Nav */
 
 .side-nav {
-    margin-left: -225px;
-    left: 225px;
+    margin-left: -15px;
+    left: 15px;
     width: 225px;
     position: fixed;
     top: 50px;
@@ -49,18 +47,18 @@ body {
     background-color: #080808;
 }
 
-@media(max-width:768px){
+.jumbotron {
+    background: rgba(200, 200, 200, 1);
+    margin-left: 210px;
+    margin-right: 25%;
+}
+
+@media(max-width:@screen-xs-max){
     .jumbotron {
 	background: rgba(200, 200, 200, 1);
 	margin-left: 5%;
 	margin-right:5%;
     }
-}
-
-.jumbotron {
-    background: rgba(200, 200, 200, 1);
-    margin-left: 20%;
-    margin-right: 25%;
 }
 
 .jumbotron > p {
