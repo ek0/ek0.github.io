@@ -1,0 +1,46 @@
+
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: url("/images/background.jpg");
+  background-position:fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: inconsolata;
+}
+
+  /* Side Nav */
+
+.side-nav {
+    margin-left: -225px;
+    left: 225px;
+    width: 225px;
+    position: fixed;
+    top: 50px;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    background-color: #222222;
+    overflow-y: auto;
+}
+
+.side-nav>li>a {
+    width: 225px;
+}
+
+.nav, .navbar {
+    background: rgba(22, 22, 22, 0.4);
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    background-color: #080808;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    background-color: #080808;
+}
