@@ -1,3 +1,4 @@
 name: ek0's blog
 markdown: redcarpet
+highlighter: pygments
 pygments: true
