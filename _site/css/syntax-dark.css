@@ -16,7 +16,11 @@ cyan #2aa198 strings, numbers
 green #859900 operators, other keywords
 */
 
-.highlight { background-color: #002b36; color: #93a1a1 }
+pre {
+    background: #002B36; /* Overide bootstrap style */
+}
+
+.highlight { /*background-color: #002b36;*/ color: #93a1a1 }
 .highlight .c { color: #586e75 } /* Comment */
 .highlight .err { color: #93a1a1 } /* Error */
 .highlight .g { color: #93a1a1 } /* Generic */
@@ -85,3 +89,4 @@ green #859900 operators, other keywords
 .highlight .vg { color: #268bd2 } /* Name.Variable.Global */
 .highlight .vi { color: #268bd2 } /* Name.Variable.Instance */
 .highlight .il { color: #2aa198 } /* Literal.Number.Integer.Long */
+.highlight .lineno { color: #EEEEEE; } /* Line numbers */
