@@ -49,18 +49,18 @@ body {
     background-color: #080808;
 }
 
-@media(max-width:768px){
+.jumbotron {
+    background: rgba(200, 200, 200, 1);
+    margin-left: 20%;
+    margin-right: 25%;
+}
+
+@media(max-width:@screen-xs-max){
     .jumbotron {
 	background: rgba(200, 200, 200, 1);
 	margin-left: 5%;
 	margin-right:5%;
     }
-}
-
-.jumbotron {
-    background: rgba(200, 200, 200, 1);
-    margin-left: 20%;
-    margin-right: 25%;
 }
 
 .jumbotron > p {
