@@ -31,10 +31,14 @@ body {
     width: 225px;
 }
 
-.nav, .navbar, .navbar-nav {
+.nav, .navbar {
     background: rgba(22, 22, 22, 0.4);
 }
 
+.navbar-nav {
+    background: rgba(255, 255, 255, 0);
+}
+
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus {
     background-color: #080808;
@@ -43,6 +47,12 @@ body {
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus {
     background-color: #080808;
+}
+
+@media(max-width:767px){
+    background: rgba(200, 200, 200, 1);
+    margin-left: 5%;
+    margin-right:5%;
 }
 
 .jumbotron {
