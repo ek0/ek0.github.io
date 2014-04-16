@@ -50,9 +50,11 @@ body {
 }
 
 @media(max-width:767px){
-    background: rgba(200, 200, 200, 1);
-    margin-left: 5%;
-    margin-right:5%;
+    .jumbotron {
+	background: rgba(200, 200, 200, 1);
+	margin-left: 5%;
+	margin-right:5%;
+    }
 }
 
 .jumbotron {
