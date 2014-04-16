@@ -2,9 +2,9 @@
 body {
   padding-top: 70px;
   padding-bottom: 30px;
-  background: url("/images/background.jpg");
-  background-position:fixed;
-  background-repeat: no-repeat;
+  background: url("/images/background.jpg") fixed no-repeat center;
+/*  background-position:fixed; 
+  background-repeat: no-repeat; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -43,4 +43,10 @@ body {
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus {
     background-color: #080808;
+}
+
+.jumbotron {
+    background: rgba(170, 170, 170, 0.9);
+    margin-left: 300px; /*15%;*/
+    margin-right: 300px
 }
