@@ -47,13 +47,17 @@ body {
     background-color: #080808;
 }
 
+/* main jumbotron */
+
 .jumbotron {
     background: rgba(200, 200, 200, 1);
     margin-left: 320px;
     margin-right: 10%;
 }
 
-@media screen and (max-width: 1200px) {/*device-width: 384px) {*/
+/* Phone and tablet support */
+
+@media screen and (max-width: 1200px) {
     .jumbotron {
 	background: rgba(200, 200, 200, 1);
 	margin-left: 5%;
@@ -64,3 +68,22 @@ body {
 .jumbotron > p {
     font-size: 14px;
 }
+
+/* end jumbotron */
+
+/* footer style */
+
+.footer {
+    margin-bottom: 0px;
+    color: #8d8d8d;
+}
+
+.footer > div > p > a:link {
+    color: #a7a7a7;
+}
+
+.footer > div > p > a:visited {
+    color: #777777;
+}
+
+/* end footer style */
