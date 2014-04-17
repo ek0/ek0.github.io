@@ -71,11 +71,15 @@ body {
 }
 
 .jumbotron > a:link {
-    color: #a7a7a7;
+    color: #8f0000;
 }
 
 .jumbotron > a:visited {
-    color: #777777;
+    color: #AF5F5F;
+}
+
+.jumbotron > a:hover {
+
 }
 
 /* end jumbotron */
