@@ -70,6 +70,14 @@ body {
     text-align: justify;
 }
 
+.jumbotron > h3 > a:link {
+    color: #a7a7a7;
+}
+
+.jumbotron > h3 > a:visited {
+    color: #777777;
+}
+
 /* end jumbotron */
 
 /* footer style */
