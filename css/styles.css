@@ -70,11 +70,11 @@ body {
     text-align: justify;
 }
 
-.jumbotron > h3 > a:link {
+.jumbotron > a:link {
     color: #a7a7a7;
 }
 
-.jumbotron > h3 > a:visited {
+.jumbotron > a:visited {
     color: #777777;
 }
 
@@ -87,7 +87,7 @@ body {
     color: #8d8d8d;
 }
 
-.footer > div > p > a:link {
+.footer > div > p >  a:link {
     color: #a7a7a7;
 }
 
