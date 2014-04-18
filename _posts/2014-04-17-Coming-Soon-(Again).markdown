@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu nulla arcu. Quisque vulputate pretium facilisis. Integer rutrum, turpis eu egestas imperdiet, ipsum massa facilisis tortor, eu sagittis velit enim et leo. Aenean et fringilla odio. Suspendisse vel neque sagittis, porttitor lorem vel, tempus quam. Proin scelerisque sed neque nec commodo. Integer eleifend nibh tristique, lobortis lorem nec, imperdiet tortor. Mauris at convallis purus, non cursus mauris. Quisque sit amet nisl vel mi fringilla scelerisque at quis enim. Pellentesque sodales ipsum ut tempus volutpat. Aenean quam dui, rutrum quis consectetur bibendum, bibendum in mauris. Suspendisse ac odio enim. Mauris leo mi, lacinia non nunc quis, adipiscing tincidunt magna. Suspendisse potenti. Sed scelerisque, libero ut porta pharetra, justo metus luctus justo, id imperdiet est turpis elementum felis. Nullam pretium magna in augue ultricies, id vehicula leo sollicitudin.
 
