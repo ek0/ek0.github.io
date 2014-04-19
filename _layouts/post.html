@@ -9,7 +9,8 @@
     <div class="container-fluid">
 
       <div class="jumbotron">
-	<a href="{{post.url}}">
+	<p style="text-align:right">{{ page.date | date: "%Y-%m-%d" }}</p>
+	<a href="{{page.url}}">
 	  <h3>{{ page.title }}</h3>
 	</a>
 	{{ content }}
