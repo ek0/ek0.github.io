@@ -1,13 +1,14 @@
 
 body {
-  padding-top: 50px;
+  padding-top: 51px;
   padding-bottom: 30px;
-  background: url("/images/background.jpg") fixed no-repeat center;
+  background-color: #000000;
+/*  background: url("/images/background.jpg") fixed no-repeat center;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: inconsolata;
+/*  font-family: inconsolata; */
 }
 
   /* Side Nav */
@@ -50,18 +51,26 @@ body {
 /* main jumbotron */
 
 .jumbotron {
-    background: rgba(200, 200, 200, 1);
+    background: rgb(12,12,12);
+    border-style: solid; 
+    border-width: 1px;
+    border-color: rgb(85,85,85);
     margin-left: 320px;
     margin-right: 20%;
+    color: rgb(170,170,170);
 }
 
 /* Phone and tablet support */
 
 @media screen and (max-width: 1200px) {
     .jumbotron {
-	background: rgba(200, 200, 200, 1);
+	background: rgb(12,12,12);
+	border-style: solid; 
+	border-width: 1px;
+	border-color: rgb(85,85,85);
 	margin-left: 5%;
 	margin-right:5%;
+	color: rgb(170,170,170);
     }
 }
 
@@ -71,11 +80,11 @@ body {
 }
 
 .jumbotron > a:link {
-    color: #8f0000;
+    color: rgb(165,42,42);
 }
 
 .jumbotron > a:visited {
-    color: #AF5F5F;
+    color: rgb(165,42,42);
 }
 
 .jumbotron > a:hover {
