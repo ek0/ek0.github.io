@@ -1,6 +1,6 @@
 
 body {
-  padding-top: 51px;
+  padding-top: 100px;
   padding-bottom: 30px;
   background-color: #000000;
 /*  background: url("/images/background.jpg") fixed no-repeat center;*/
@@ -32,7 +32,8 @@ body {
 }
 
 .nav, .navbar {
-    background: rgba(22, 22, 22, 0.4);
+    background: rgba(14, 14, 14, 1);
+    border-color: #999999;
 }
 
 .navbar-nav {
@@ -56,8 +57,8 @@ body {
     border-style: solid; 
     border-width: 1px;
     border-color: rgb(85,85,85);
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
     color: rgb(170,170,170);
 }
 
@@ -69,27 +70,15 @@ body {
 	border-style: solid; 
 	border-width: 1px;
 	border-color: rgb(85,85,85);
-	margin-left: 5%;
-	margin-right:5%;
+	margin-left: 10%;
+	margin-right:10%;
 	color: rgb(170,170,170);
     }
 }
 
 .jumbotron > p {
-    font-size: 14px;
+    font-size: 16px;
     text-align: justify;
-}
-
-.jumbotron > a:link {
-    color: rgb(165,42,42);
-}
-
-.jumbotron > a:visited {
-    color: rgb(165,42,42);
-}
-
-.jumbotron > a > h3 {
-    font-weight: bold;
 }
 
 /* end jumbotron */
@@ -101,12 +90,12 @@ body {
     color: #8d8d8d;
 }
 
-.footer > div > p >  a:link {
-    color: #a7a7a7;
+a:link {
+    color: #C00000;
 }
 
-.footer > div > p > a:visited {
-    color: #777777;
+a:visited {
+    color: #800000;
 }
 
 /* end footer style */
